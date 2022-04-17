@@ -1,0 +1,66 @@
+body    {
+    margin: 0;
+    padding: 0;
+}
+.main   {
+    margin: 1%;
+    padding: 1%;
+    background-image: url("../images/pedestrian1.svg");
+    background-size: 2%;
+}
+.xcenter {
+    justify-content: center;
+}
+.ycenter    {
+    align-items: center;
+}
+.xcenter, .ycenter  {
+    display: flex;
+}
+.fixed  {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background-color: #4080ff80;
+    width: 7vw;
+    height: 7vw;
+    border-radius: 50%;
+    padding: 1%;
+}
+#background {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+#top    {
+    font-size: 4vw;
+    font-weight: bold;
+}
+#pedestrian {
+    color: #256aff;
+}
+#sos    {
+    color: #ec0400;
+}
+.text1  {
+    font-size: 150%;
+}
+.titletext  {
+    text-align: center;
+    font-weight: bold;
+}
+.text2  {
+    font-size: 125%;
+}
+.text1, .text2   {
+    margin: 0 10% 0 10%;
+}
+.main div:not(.fixed)   {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 2%;
+    border-radius: 2em;
+    box-shadow: 0 0 16px #0000ff;
+}
+.main li    {
+    margin: 1%;
+    padding: 1%;
+    box-shadow: 0 0 8px #0080ff;
+}
